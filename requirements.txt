@@ -1,0 +1,8 @@
+# Minimum versions needed to reproduce the observed behaviour.
+#
+# IMPORTANT: use the CPU-ONLY build of torch (no CUDA). Install the CPU wheel
+# appropriate for your platform via the official PyTorch CPU distribution
+# channel, then install the remaining pins below.
+
+torch==2.13.0
+transformers==5.13.1
