@@ -1,5 +1,7 @@
 # CPU segfault when calling `backward()` on a loss computed through `lm_head`
 
+English | [简体中文](README.zh-CN.md)
+
 A minimal, self-contained report and reproduction kit for one narrow observation:
 
 > On a **CPU-only** PyTorch setup, computing a loss from the `logits` produced by a
